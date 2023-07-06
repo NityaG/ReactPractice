@@ -1,5 +1,5 @@
 import React, { useReducer } from 'react';
-import Reducer from './Reducers/CountReducer'
+import Reducer from '../Reducers/CountReducer'
 
 const UseReducerPrac = () => {
 const [state, dispatch] = useReducer(Reducer, {count : 0})

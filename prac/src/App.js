@@ -5,6 +5,7 @@ import HocComp from './Components/HocComp';
 import CheckAvailability from './Components/CheckAvailability';
 
 function App() {
+  
   return (
     <div className="App">
     {/* <UseReducerPrac/> */}

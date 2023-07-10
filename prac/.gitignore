@@ -5,6 +5,7 @@
 /.pnp
 .pnp.js
 /src/Redux Prac/node_modules
+/Src/ReduxToolkitPrac/node_modules
 
 # testing
 /coverage

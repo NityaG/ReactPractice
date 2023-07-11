@@ -3,6 +3,8 @@ import './App.css';
 import UseReducerPrac from './Components/UseReducerPrac';
 import HocComp from './Components/HocComp';
 import CheckAvailability from './Components/CheckAvailability';
+import CalculatorView from './React Rtk Prac/CalculatorView'
+import First from './Components/First';
 
 function App() {
   
@@ -10,7 +12,9 @@ function App() {
     <div className="App">
     {/* <UseReducerPrac/> */}
     {/* <HocComp/> */}
-    <CheckAvailability/>
+    {/* <CheckAvailability/> */}
+    <CalculatorView/>
+    <First/>
     </div>
   );
 }

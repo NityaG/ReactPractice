@@ -9,10 +9,10 @@ const calculatorSlice = createSlice({
     initialState,
     reducers: {
         addition : (state, action) => {
-            state += action.payload
+            state.count += action.payload
         },
         substract : (state, action) => {
-            state -= action.payload
+            state.count -= action.payload
         }
     }
 })

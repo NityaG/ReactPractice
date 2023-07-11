@@ -5,6 +5,8 @@ import HocComp from './Components/HocComp';
 import CheckAvailability from './Components/CheckAvailability';
 import CalculatorView from './React Rtk Prac/CalculatorView'
 import First from './Components/First';
+import UsersView from './React Rtk Prac/UsersView';
+
 
 function App() {
   
@@ -13,8 +15,9 @@ function App() {
     {/* <UseReducerPrac/> */}
     {/* <HocComp/> */}
     {/* <CheckAvailability/> */}
-    <CalculatorView/>
-    <First/>
+    {/* <CalculatorView/> */}
+    {/* <First/> */}
+    <UsersView/>
     </div>
   );
 }
